@@ -1,0 +1,36 @@
+.projects-container {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 400px;
+    padding-bottom: 600px;  
+}
+
+.projects-section {
+
+    background-color: #1c2e3f;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5))
+}
+
+.projects-gotodiv {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+}
+
+.card-img-projects {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.projects-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}

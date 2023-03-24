@@ -1,0 +1,63 @@
+.aboutme-container{
+    height: 100vh;
+  
+    }
+
+.aboutme-section{
+    height: 100vh;
+    background-color: #1c2e3f;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)) ;
+    /* animation: 50s bgrandom infinite; */
+}
+
+.profile-picture{
+    width:300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+  
+}
+
+.aboutme-paragraph{
+    text-align: justify;
+    
+}
+
+.aboutme-row{
+    height: 100vh;
+}
+
+
+
+.aboutme-video{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+ /* @keyframes bgrandom {
+     0% {
+        background-color: #1c2e3f ;
+     }
+
+     20% {
+        background-color: #172a3b;
+     }
+
+     40% {
+        background-color: #0e253c;
+     }
+
+     60% {
+        background-color: #10365a;
+     }
+
+     80% {
+        background-color: #193c5c;
+     }
+
+     100% {
+        background-color: #22394f;
+     }
+ } */
