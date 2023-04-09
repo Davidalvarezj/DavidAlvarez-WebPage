@@ -38,6 +38,7 @@ const Footer = () => {
             >
               davidalvarezj@gmail.com
             </h2>
+            <h4 className="text-center">Web Developer</h4>
           </div>
         </Container>
       </div>

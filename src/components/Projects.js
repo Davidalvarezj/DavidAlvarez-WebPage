@@ -25,10 +25,12 @@ const Projects = () => {
                   data-aos-duration="1200"
                 >
                   <div className="projects-overlay"></div>
-                  <img
-                    src={require("../img/codingimg.jpg")}
-                    class="card-img-projects"
-                    alt="..."
+                  <video
+                    src={require("../img/projects/2023-04-09 14-13-25.mp4")}
+                    class="video-project"
+                    autoPlay
+                    loop
+                    muted
                   />
                   <div class="card-img-overlay m-2">
                     <h5 class="card-title">Vehicles Marketplace</h5>
@@ -36,7 +38,7 @@ const Projects = () => {
                       Online marketplace for second-hand used cars, bikes,
                       trucks and boats.
                     </p>
-                    <p>www.vendevehiculos.com</p>
+
                     <div className="projects-gotodiv">
                       <h2>
                         <AiFillGithub />
@@ -55,10 +57,12 @@ const Projects = () => {
                   data-aos-duration="1200"
                 >
                   <div className="projects-overlay"></div>
-                  <img
-                    src={require("../img/codingimg.jpg")}
-                    class="card-img-projects"
-                    alt="..."
+                  <video
+                    src={require("../img/projects/2023-04-09 14-21-20.mp4")}
+                    class="video-project"
+                    autoPlay
+                    loop
+                    muted
                   />
                   <div class="card-img-overlay m-2">
                     <h5 class="card-title">Colombia Travel</h5>
@@ -84,10 +88,12 @@ const Projects = () => {
                   data-aos-duration="1200"
                 >
                   <div className="projects-overlay"></div>
-                  <img
-                    src={require("../img/codingimg.jpg")}
-                    class="card-img-projects"
-                    alt="..."
+                  <video
+                    src={require("../img/projects/2023-04-09 14-21-20.mp4")}
+                    class="video-project"
+                    autoPlay
+                    loop
+                    muted
                   />
                   <div class="card-img-overlay m-2">
                     <h5 class="card-title">NFT Movile App</h5>
@@ -113,10 +119,12 @@ const Projects = () => {
                   data-aos-duration="1200"
                 >
                   <div className="projects-overlay"></div>
-                  <img
-                    src={require("../img/codingimg.jpg")}
-                    class="card-img-projects"
-                    alt="..."
+                  <video
+                    src={require("../img/projects/2023-04-09 14-27-04.mp4")}
+                    class="video-project"
+                    autoPlay
+                    loop
+                    muted
                   />
                   <div class="card-img-overlay m-2">
                     <h5 class="card-title">Movies Database</h5>
@@ -142,10 +150,12 @@ const Projects = () => {
                   data-aos-duration="1200"
                 >
                   <div className="projects-overlay"></div>
-                  <img
-                    src={require("../img/codingimg.jpg")}
-                    class="card-img-projects"
-                    alt="..."
+                  <video
+                    src={require("../img/projects/2023-04-09 14-32-47.mp4")}
+                    class="video-project"
+                    autoPlay
+                    loop
+                    muted
                   />
                   <div class="card-img-overlay m-2">
                     <h5 class="card-title">Maze Runner Game</h5>
@@ -168,10 +178,12 @@ const Projects = () => {
                   data-aos-duration="1200"
                 >
                   <div className="projects-overlay"></div>
-                  <img
-                    src={require("../img/codingimg.jpg")}
-                    class="card-img-projects"
-                    alt="..."
+                  <video
+                    src={require("../img/projects/2023-04-09 14-37-29.mp4")}
+                    class="video-project"
+                    autoPlay
+                    loop
+                    muted
                   />
                   <div class="card-img-overlay m-2">
                     <h5 class="card-title">Crypto Landing Page</h5>
@@ -197,10 +209,12 @@ const Projects = () => {
                   data-aos-duration="1200"
                 >
                   <div className="projects-overlay"></div>
-                  <img
-                    src={require("../img/codingimg.jpg")}
-                    class="card-img-projects"
-                    alt="..."
+                  <video
+                    src={require("../img/projects/2023-04-09 14-42-45.mp4")}
+                    class="video-project"
+                    autoPlay
+                    loop
+                    muted
                   />
                   <div class="card-img-overlay m-2">
                     <h5 class="card-title">To-Do List App</h5>
@@ -223,10 +237,12 @@ const Projects = () => {
                   data-aos-duration="1200"
                 >
                   <div className="projects-overlay"></div>
-                  <img
-                    src={require("../img/codingimg.jpg")}
-                    class="card-img-projects"
-                    alt="..."
+                  <video
+                    src={require("../img/projects/2023-04-09 14-44-39.mp4")}
+                    class="video-project"
+                    autoPlay
+                    loop
+                    muted
                   />
                   <div class="card-img-overlay m-2">
                     <h5 class="card-title">Freelance Project</h5>
@@ -251,10 +267,12 @@ const Projects = () => {
                   data-aos-duration="1200"
                 >
                   <div className="projects-overlay"></div>
-                  <img
-                    src={require("../img/codingimg.jpg")}
-                    class="card-img-projects"
-                    alt="..."
+                  <video
+                    src={require("../img/projects/2023-04-09 14-47-15.mp4")}
+                    class="video-project"
+                    autoPlay
+                    loop
+                    muted
                   />
                   <div class="card-img-overlay m-2">
                     <h5 class="card-title">Youtube API</h5>

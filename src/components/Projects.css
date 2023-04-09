@@ -34,3 +34,9 @@
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
+
+.video-project{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
