@@ -16,14 +16,9 @@
 .projects-gotodiv {
     display: flex;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
 }
 
-.card-img-projects {
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
-}
 
 .projects-overlay {
     position: absolute;
@@ -31,12 +26,59 @@
     left: 0;
     width: 100%;
     height: 200px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 5px;
+    animation: fadeslow 0.8s ease forwards;
+    z-index: 1;
 }
 
 .video-project{
+    transition: all 0.9s ease;
+    cursor:default;
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
+
+}
+
+.project-text{
+
+    cursor: default;
+    animation: opacitytextvideo 0.8s ease forwards;
+    opacity: 0;
+    z-index: 2;
+}
+.githublink-video{
+    cursor: pointer;
+}
+.weblink-video {
+    cursor: pointer;
+}
+.video-scale{ 
+    scale: 1.1;
+}
+.githublink-video:hover{
+    scale: 1.1;
+}
+.weblink-video:hover {
+    scale: 1.1;
+}
+
+@keyframes fadeslow {
+    0% {
+        background-color: rgba(0, 0, 0, 0.0);
+        scale: 1;
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.7);
+        scale: 1.1;
+    }
+}
+@keyframes opacitytextvideo {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

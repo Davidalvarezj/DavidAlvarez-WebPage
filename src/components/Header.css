@@ -21,7 +21,7 @@
         top: 0;
         left: 0;
         height: 100vh;
-        background-color: rgba(0, 0, 0, 0.1);   
+        background-color: rgba(0, 0, 0, 0.2);   
 
 }
 
@@ -76,12 +76,27 @@
 @keyframes showopacity {
         0% {
         opacity: 0;
+        transform: scaley(0.03);
+        }
+        60% {
+        opacity: 0.2;
+        transform: scaley(0.03);
+        }
+        70% {
+                transform: scaley(0.03);
         }
         80% {
         opacity: 0.3;
+        transform: scaley(1.05);
+      
+        }
+        90% {
+                transform: scaley(1);
         }
         100% {
-        opacity: 1;  
+        opacity: 1; 
+       
+        
         }
 }
 @keyframes siceup {

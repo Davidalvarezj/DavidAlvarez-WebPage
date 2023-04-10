@@ -23,7 +23,13 @@ const Header = () => {
           <div className="row">
             <div className="col">
               <div className="header-content">
-                <h1 className="header-tittle">David Alvarez</h1>
+                <h1
+                  className="header-tittle"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
+                  David Alvarez
+                </h1>
                 <p className="header-paragraph ">
                   Freelance Full-Stack web Developer
                 </p>
