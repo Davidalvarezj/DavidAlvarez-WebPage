@@ -8,12 +8,13 @@ const Aboutme = () => {
       <div className="aboutme-section ">
         <div className="container aboutme-container ">
           <div className="row aboutme-row ">
-            <div className="col col-md-5 d-inline-flex ">
+            <div className="col col-md-4 offset-md-1 d-inline-flex ">
               {/* <img
                 src={require("../img/anime3.jpg")}
                 alt="Profile Picture"
                 className="profile-picture my-auto mx-auto"
               /> */}
+              <div className="aboutme-overlay"></div>
               <video
                 className="aboutme-video my-auto mx-auto"
                 src={videoprofile}
@@ -31,30 +32,42 @@ const Aboutme = () => {
               data-aos-duration="1200"
             >
               <div>
-                <h3 className="mb-4">About Me</h3>
+                <h3 className="mb-4 section-tittle">
+                  <span className="section-tittle-span">A</span>BOUT ME
+                </h3>
+
                 <p className="aboutme-paragraph">
-                  A full-stack developer is a professional with knowledge and
-                  experience in developing both the front-end and back-end
-                  components of web applications. They are proficient in various
-                  programming languages and frameworks such as HTML, CSS,
-                  JavaScript, Node.js, Python, Ruby, and PHP, as well as with
-                  databases like MySQL, PostgreSQL, and MongoDB.
+                  <span className="aboutme-paragraph-span">I´</span>m a
+                  freelance full-stack web developer, passionate about learning
+                  new innovative technologies to enhance the web experience and
+                  increase its usability. Proficient in JavaScript,
+                  React-Native, React, Node-js, Python, MongoDB, CSS, HTML and
+                  Google Cloud Platform Services.
                 </p>
                 <p className="aboutme-paragraph">
-                  Additionally, they are well-versed in deployment technologies,
-                  cloud platforms, version control, and project management,
-                  making them capable of building and maintaining entire web
-                  applications from the design and implementation of user
-                  interfaces to the creation of complex server-side logic and
-                  databases.
+                  Experience building user friendly applications covering the
+                  entire development cycle from front-end interface design to
+                  back-end database integration. I possess expertise in
+                  developing E-commerce websites, mobile apps, Landing pages and
+                  Web applications.
+                </p>
+                <p className="aboutme-paragraph">
+                  My skill set includes website design, development, and
+                  maintenance.
                 </p>
               </div>
-              <div className="mt-4 mb-3">
+              <div className="mt-5 mb-3">
                 <button
                   type="button"
-                  className="btn btn-outline-light ms-3 border-1"
+                  className="btn btn-outline-warning ms-3 border-1 button-about1"
                 >
-                  Contact Me
+                  Contact
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-warning ms-4 border-1 button-about2"
+                >
+                  Projects
                 </button>
               </div>
             </div>

@@ -7,9 +7,7 @@
     text-shadow: 2px 2px 4px #000000;
     box-shadow: 0px 0px 200px 200px rgba(0, 0, 0, 0.7);
     height: 100vh
-
-
-    
+ 
 }
 .footer-container{
     margin-top: 35vh
@@ -17,8 +15,6 @@
 
 .footer-social {
     font-size: 50px;
-
-
 }
 
 .text-footer-link {

@@ -12,16 +12,29 @@ const Footer = () => {
       <div className={"jumbotron-fluid footer-main pt-5 pb-5"}>
         <Container className="footer-container">
           <div className="row row-footer">
-            <div className="col text-center ">
-              <div
-                className="footer-social"
-                data-aos="zoom-out-down"
-                data-aos-duration="1200"
-              >
-                <FaFacebookSquare className="m-2" />
-                <TfiYoutube className="m-2" />
-                <FiInstagram className="m-2" />
-                <FaTwitterSquare className="m-2" />
+            <div className="row">
+              <div className="col col-md-5 offset-md-1 my-auto">
+                <h3 className="section-tittle">
+                  <span className="section-tittle-span">C</span>ONTACT ME
+                </h3>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col col-md-5 offset-md-1 my-auto">
+                <h3 className="footer-tag">Phone</h3>
+                <p>+57 314 890 01 35</p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col col-md-5 offset-md-1 my-auto">
+                <h3 className="footer-tag">Email</h3>
+                <p>davidalvarezj@gmail.com</p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col col-md-5 offset-md-1 my-auto">
+                <h3 className="footer-tag">Location</h3>
+                <p>Open for new locations</p>
               </div>
             </div>
           </div>
@@ -36,9 +49,8 @@ const Footer = () => {
                 window.scrollTo(0, 0);
               }}
             >
-              davidalvarezj@gmail.com
+              www.davidalvarezj.com
             </h2>
-            <h4 className="text-center">Web Developer</h4>
           </div>
         </Container>
       </div>

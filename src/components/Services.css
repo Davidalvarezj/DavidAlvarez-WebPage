@@ -17,7 +17,7 @@
 }
 
 .card-servises{
-    height: 250px;
+    height: 260px;
     object-fit: cover;
     
 }
@@ -27,7 +27,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 250px;
+    height: 260px;
     background-color: rgba(8, 32, 53, 0.8);
     border-radius: 5px;
 }
@@ -36,7 +36,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 250px;
+    height: 260px;
     background-color: rgba(46, 46, 7, 0.8);
     border-radius: 5px;
 }
@@ -45,7 +45,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 250px;
+    height: 260px;
     background-color: rgba(22, 7, 29, 0.8);
     border-radius: 5px;
 }
@@ -54,11 +54,15 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 250px;
+    height: 260px;
     background-color: rgba(7, 42, 8, 0.8);
     border-radius: 5px;
 }
 
 .services-icon{
     font-size: 60px;
+}
+
+.card-text{
+    text-align: justify;
 }

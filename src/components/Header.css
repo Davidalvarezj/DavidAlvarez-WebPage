@@ -35,31 +35,48 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-shadow: 2px 2px 4px #000000;
-        opacity: 0;
-        animation: showopacity 3.8s ease-in 1s forwards;
+        text-shadow: 2px 2px 2px #000000;
+
         
 }
 .header-paragraph{
-        width: 40vw;
+        
         text-align: center;
-        font-size: 30px;
+        font-size: 35px;
+        margin-top: 10px;
         padding: 0;
         margin-bottom: 40px;
-        
-        
-        
+        font-family:  "sans-serif";
+        text-shadow: 2px 2px 2px #000000;
+        color: #ffffff;
+        border-width: 2px;
+        opacity: 0;
+        animation: showopacity 3.8s ease-in 1s forwards;
+    
 }
 .header-tittle{
-        font-size: 100px;
+
+        /* font-family: 'Times New Roman', Times, serif;
+        font-family: 'Old Standard TT', serif; */
+        font-family: 'Cinzel', serif;
+        font-size: 150px;
         margin: 0;
         padding: 0;
-     
-        
+        color: #FFE699; 
+        line-height: 1;
+        opacity: 0;
+        animation: showopacity2 5s ease-in 2s forwards;
+       
 }
+.header-tittle-sub{
+        font-size: 110px; 
+}
+
+
 .header-button{
         border-radius: 100% !important;
-        margin-left: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         height: 60px;
         width: 60px;
         box-shadow:2px 2px 4px #000000;
@@ -75,15 +92,16 @@
 
 @keyframes showopacity {
         0% {
-        opacity: 0;
-        transform: scaley(0.03);
+        opacity: 0.2;
+        transform: scaley(0.05);
         }
         60% {
         opacity: 0.2;
-        transform: scaley(0.03);
+        transform: scaley(0.05);
         }
         70% {
-                transform: scaley(0.03);
+        opacity: 0.2;
+        transform: scaley(0.05);
         }
         80% {
         opacity: 0.3;
@@ -91,7 +109,7 @@
       
         }
         90% {
-                transform: scaley(1);
+        transform: scaley(1);
         }
         100% {
         opacity: 1; 
@@ -113,4 +131,14 @@
                 opacity: 1;
         }
 
+}
+
+@keyframes showopacity2 {
+        0% {  
+                opacity: 0;
+        }
+
+        100% {
+                opacity: 1;
+        }
 }

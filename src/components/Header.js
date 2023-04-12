@@ -23,57 +23,62 @@ const Header = () => {
           <div className="row">
             <div className="col">
               <div className="header-content">
-                <h1
-                  className="header-tittle"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  David Alvarez
+                <h1 className="header-tittle">
+                  D<span className="header-tittle-sub">AVID</span> A
+                  <span className="header-tittle-sub">LVAREZ</span>
                 </h1>
-                <p className="header-paragraph ">
-                  Freelance Full-Stack web Developer
-                </p>
+                <p className="header-paragraph ">FULL-STACK WEB DEVELOPER</p>
                 <div data-aos="zoom-in">
-                  <button
+                  <a
                     type="button"
                     className="btn btn-outline-light header-button"
+                    href="https://linkedin.com/in/david-alvarezj"
+                    target="_blank"
                   >
                     <h3>
                       <FaLinkedinIn />
                     </h3>
-                  </button>
-                  <button
+                  </a>
+                  <a
                     type="button"
                     className="btn btn-outline-light header-button"
+                    href="https://github.com/Davidalvarezj"
+                    target="_blank"
                   >
                     <h3>
                       <AiFillGithub />
                     </h3>
-                  </button>
-                  <button
+                  </a>
+                  <a
                     type="button"
                     className="btn btn-outline-light header-button"
+                    href="https://twitter.com/D4VID_AJ"
+                    target="_blank"
                   >
                     <h3>
                       <AiOutlineTwitter />
                     </h3>
-                  </button>
-                  <button
+                  </a>
+                  <a
                     type="button"
                     className="btn btn-outline-light header-button"
+                    href="https://www.instagram.com/davidaj44/"
+                    target="_blank"
                   >
                     <h3>
                       <AiFillInstagram />
                     </h3>
-                  </button>
-                  <button
+                  </a>
+                  <a
                     type="button"
                     className="btn btn-outline-light header-button"
+                    href="https://linkedin.com/in/david-alvarezj"
+                    target="_blank"
                   >
                     <h3>
                       <AiFillFilePdf />
                     </h3>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

@@ -28,11 +28,16 @@ const Projects = () => {
     <>
       <div className="projects-section">
         <div className="container projects-container">
-          <div className="row" data-aos="zoom-in-up" data-aos-duration="1200">
-            <div className="col text-center">
-              <h3 className="text-white">Projects</h3>
+          <div className="row" data-aos="fade-up" data-aos-duration="1000">
+            <div className="col col-md-5 offset-md-1 my-auto">
+              <h3 className="section-tittle">
+                <span className="section-tittle-span">P</span>ROJECTS
+              </h3>
               <p className="text-white projects-paragraph mb-5">
-                A full-stack developer is a software developer who has knowledge
+                <span className="aboutme-paragraph-span">A</span>ctively working
+                on a range of projects, including landing pages, marketplaces,
+                video games, and creative startup concepts, showcasing diverse
+                skills and expertise.
               </p>
             </div>
           </div>
@@ -62,33 +67,36 @@ const Projects = () => {
                     muted
                   />
                   {hoverVideo1 && (
-                    <div class="card-img-overlay m-2 project-text">
-                      <h5 class="card-title">Vehicles Marketplace</h5>
+                    <div class="card-img-overlay project-text">
+                      <h5 class="card-title card-title-projects">
+                        Vehicles Marketplace
+                      </h5>
                       <p class="card-text">
                         Online marketplace for second-hand used cars, bikes,
                         trucks and boats.
                       </p>
 
                       <div className="projects-gotodiv">
-                        <h2
+                        <a
+                          type="button"
                           className="githublink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://github.com/Davidalvarezj/Vende-Vehiculos",
-                              "_blank"
-                            )
-                          }
+                          href="https://github.com/Davidalvarezj/Vende-Vehiculos"
+                          target="_blank"
                         >
-                          <AiFillGithub />
-                        </h2>
-                        <h3
-                          className="ms-4 pt-1 weblink-video"
-                          onClick={() =>
-                            window.open("https:vendevehiculos.com", "_blank")
-                          }
+                          <h2 className="githublink-video">
+                            <AiFillGithub />
+                          </h2>
+                        </a>
+                        <a
+                          type="button"
+                          className="weblink-video"
+                          href="https:vendevehiculos.com"
+                          target="_blank"
                         >
-                          <SiAirplayvideo />
-                        </h3>
+                          <h2 className="weblink-video">
+                            <SiAirplayvideo />
+                          </h2>
+                        </a>
                       </div>
                     </div>
                   )}
@@ -117,35 +125,35 @@ const Projects = () => {
                     muted
                   />
                   {hoverVideo2 && (
-                    <div class="card-img-overlay m-2 project-text">
-                      <h5 class="card-title">Colombia Travel</h5>
+                    <div class="card-img-overlay project-text">
+                      <h5 class="card-title card-title-projects">
+                        Colombia Travel
+                      </h5>
                       <p class="card-text">
                         Landing page that provides information about the main
                         tours for Colombia visitors.
                       </p>
                       <div className="projects-gotodiv">
-                        <h2
+                        <a
+                          type="button"
                           className="githublink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://github.com/Davidalvarezj/Colombia-Travel",
-                              "_blank"
-                            )
-                          }
+                          href="https://github.com/Davidalvarezj/Colombia-Travel"
+                          target="_blank"
                         >
-                          <AiFillGithub />
-                        </h2>
-                        <h3
-                          className="ms-4 pt-1 weblink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://colombiatravel-d0f32.web.app",
-                              "_blank"
-                            )
-                          }
+                          <h2 className="githublink-video">
+                            <AiFillGithub />
+                          </h2>
+                        </a>
+                        <a
+                          type="button"
+                          className="weblink-video"
+                          href="https://colombiatravel-d0f32.web.app"
+                          target="_blank"
                         >
-                          <SiAirplayvideo />
-                        </h3>
+                          <h2 className="weblink-video">
+                            <SiAirplayvideo />
+                          </h2>
+                        </a>
                       </div>
                     </div>
                   )}
@@ -174,24 +182,25 @@ const Projects = () => {
                     muted
                   />
                   {hoverVideo3 && (
-                    <div class="card-img-overlay m-2 project-text">
-                      <h5 class="card-title">NFT Movile App</h5>
+                    <div class="card-img-overlay project-text">
+                      <h5 class="card-title card-title-projects">
+                        NFT Movile App
+                      </h5>
                       <p class="card-text">
                         Movile database app to dispaly multiple NFT's projects
                         information.
                       </p>
                       <div className="projects-gotodiv">
-                        <h2
+                        <a
+                          type="button"
                           className="githublink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://github.com/Davidalvarezj/React-native-NFT-Database",
-                              "_blank"
-                            )
-                          }
+                          href="https://github.com/Davidalvarezj/React-native-NFT-Database"
+                          target="_blank"
                         >
-                          <AiFillGithub />
-                        </h2>
+                          <h2 className="githublink-video">
+                            <AiFillGithub />
+                          </h2>
+                        </a>
                       </div>
                     </div>
                   )}
@@ -220,35 +229,35 @@ const Projects = () => {
                     muted
                   />
                   {hoverVideo4 && (
-                    <div class="card-img-overlay m-2 project-text">
-                      <h5 class="card-title">Movies Database</h5>
+                    <div class="card-img-overlay project-text">
+                      <h5 class="card-title card-title-projects">
+                        Movies Database
+                      </h5>
                       <p class="card-text">
                         Web app that provides movies information for trailers,
                         reviews, genres, and more.
                       </p>
                       <div className="projects-gotodiv">
-                        <h2
+                        <a
+                          type="button"
                           className="githublink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://github.com/Davidalvarezj/Movie-time",
-                              "_blank"
-                            )
-                          }
+                          href="https://github.com/Davidalvarezj/Movie-time"
+                          target="_blank"
                         >
-                          <AiFillGithub />
-                        </h2>
-                        <h3
-                          className="ms-4 pt-1 weblink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://davidalvarezj.github.io/Movie-time/",
-                              "_blank"
-                            )
-                          }
+                          <h2 className="githublink-video">
+                            <AiFillGithub />
+                          </h2>
+                        </a>
+                        <a
+                          type="button"
+                          className="weblink-video"
+                          href="https://davidalvarezj.github.io/Movie-time/"
+                          target="_blank"
                         >
-                          <SiAirplayvideo />
-                        </h3>
+                          <h2 className="weblink-video">
+                            <SiAirplayvideo />
+                          </h2>
+                        </a>
                       </div>
                     </div>
                   )}
@@ -277,32 +286,32 @@ const Projects = () => {
                     muted
                   />
                   {hoverVideo5 && (
-                    <div class="card-img-overlay m-2 project-text">
-                      <h5 class="card-title">Maze Runner Game</h5>
-                      <p class="card-text">Web Puzzle game using canvas tag</p>
+                    <div class="card-img-overlay project-text">
+                      <h5 class="card-title card-title-projects">
+                        Maze Runner Game
+                      </h5>
+                      <p class="card-text">Web Puzzle game using canvas.</p>
                       <div className="projects-gotodiv">
-                        <h2
+                        <a
+                          type="button"
                           className="githublink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://github.com/Davidalvarezj/running-game",
-                              "_blank"
-                            )
-                          }
+                          href="https://github.com/Davidalvarezj/running-game"
+                          target="_blank"
                         >
-                          <AiFillGithub />
-                        </h2>
-                        <h3
-                          className="ms-4 pt-1 weblink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://davidalvarezj.github.io/running-game/",
-                              "_blank"
-                            )
-                          }
+                          <h2 className="githublink-video">
+                            <AiFillGithub />
+                          </h2>
+                        </a>
+                        <a
+                          type="button"
+                          className="weblink-video"
+                          href="https://davidalvarezj.github.io/running-game/"
+                          target="_blank"
                         >
-                          <SiAirplayvideo />
-                        </h3>
+                          <h2 className="weblink-video">
+                            <SiAirplayvideo />
+                          </h2>
+                        </a>
                       </div>
                     </div>
                   )}
@@ -331,35 +340,35 @@ const Projects = () => {
                     muted
                   />
                   {hoverVideo6 && (
-                    <div class="card-img-overlay m-2 project-text">
-                      <h5 class="card-title">Crypto Landing Page</h5>
+                    <div class="card-img-overlay project-text">
+                      <h5 class="card-title card-title-projects">
+                        Crypto Landing Page
+                      </h5>
                       <p class="card-text">
                         Landing page for a Crypto project focus on movile first
                         design.
                       </p>
                       <div className="projects-gotodiv">
-                        <h2
+                        <a
+                          type="button"
                           className="githublink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://github.com/Davidalvarezj/batabit-movile",
-                              "_blank"
-                            )
-                          }
+                          href="https://github.com/Davidalvarezj/batabit-movile"
+                          target="_blank"
                         >
-                          <AiFillGithub />
-                        </h2>
-                        <h3
-                          className="ms-4 pt-1 weblink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://davidalvarezj.github.io/batabit-movile/",
-                              "_blank"
-                            )
-                          }
+                          <h2 className="githublink-video">
+                            <AiFillGithub />
+                          </h2>
+                        </a>
+                        <a
+                          type="button"
+                          className="weblink-video"
+                          href="https://davidalvarezj.github.io/batabit-movile/"
+                          target="_blank"
                         >
-                          <SiAirplayvideo />
-                        </h3>
+                          <h2 className="weblink-video">
+                            <SiAirplayvideo />
+                          </h2>
+                        </a>
                       </div>
                     </div>
                   )}
@@ -388,32 +397,34 @@ const Projects = () => {
                     muted
                   />
                   {hoverVideo7 && (
-                    <div class="card-img-overlay m-2 project-text">
-                      <h5 class="card-title">To-Do List App</h5>
-                      <p class="card-text">To-Do List App using React</p>
+                    <div class="card-img-overlay project-text">
+                      <h5 class="card-title card-title-projects">
+                        To-Do List App
+                      </h5>
+                      <p class="card-text">
+                        To-Do List Web application using React.
+                      </p>
                       <div className="projects-gotodiv">
-                        <h2
+                        <a
+                          type="button"
                           className="githublink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://github.com/Davidalvarezj/To-Do-List-app",
-                              "_blank"
-                            )
-                          }
+                          href="https://github.com/Davidalvarezj/To-Do-List-app"
+                          target="_blank"
                         >
-                          <AiFillGithub />
-                        </h2>
-                        <h3
-                          className="ms-4 pt-1 weblink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://davidalvarezj.github.io/To-Do-List-app/",
-                              "_blank"
-                            )
-                          }
+                          <h2 className="githublink-video">
+                            <AiFillGithub />
+                          </h2>
+                        </a>
+                        <a
+                          type="button"
+                          className="weblink-video"
+                          href="https://davidalvarezj.github.io/To-Do-List-app/"
+                          target="_blank"
                         >
-                          <SiAirplayvideo />
-                        </h3>
+                          <h2 className="weblink-video">
+                            <SiAirplayvideo />
+                          </h2>
+                        </a>
                       </div>
                     </div>
                   )}
@@ -442,35 +453,35 @@ const Projects = () => {
                     muted
                   />
                   {hoverVideo8 && (
-                    <div class="card-img-overlay m-2 project-text">
-                      <h5 class="card-title">Freelance Project</h5>
+                    <div class="card-img-overlay project-text">
+                      <h5 class="card-title card-title-projects">
+                        Marketing landing page{" "}
+                      </h5>
                       <p class="card-text">
-                        Landing page for plastic distributor sales
-                        representative.
+                        Single-page website for a packaging plastic film
+                        supplier.
                       </p>
                       <div className="projects-gotodiv">
-                        <h2
+                        <a
+                          type="button"
                           className="githublink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://github.com/Davidalvarezj/representaciones-jisa",
-                              "_blank"
-                            )
-                          }
+                          href="https://github.com/Davidalvarezj/representaciones-jisa"
+                          target="_blank"
                         >
-                          <AiFillGithub />
-                        </h2>
-                        <h3
-                          className="ms-4 pt-1 weblink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://representacionesjisa.com/",
-                              "_blank"
-                            )
-                          }
+                          <h2 className="githublink-video">
+                            <AiFillGithub />
+                          </h2>
+                        </a>
+                        <a
+                          type="button"
+                          className="weblink-video"
+                          href="https://representacionesjisa.com/"
+                          target="_blank"
                         >
-                          <SiAirplayvideo />
-                        </h3>
+                          <h2 className="weblink-video">
+                            <SiAirplayvideo />
+                          </h2>
+                        </a>
                       </div>
                     </div>
                   )}
@@ -499,32 +510,32 @@ const Projects = () => {
                     muted
                   />
                   {hoverVideo9 && (
-                    <div class="card-img-overlay m-2 project-text">
-                      <h5 class="card-title">Youtube API</h5>
-                      <p class="card-text">Best Motivational Speech Videos</p>
+                    <div class="card-img-overlay project-text">
+                      <h5 class="card-title card-title-projects">
+                        Youtube API
+                      </h5>
+                      <p class="card-text">Best Motivational Speech Videos.</p>
                       <div className="projects-gotodiv">
-                        <h2
+                        <a
+                          type="button"
                           className="githublink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://github.com/Davidalvarezj/Youtube-API-Test",
-                              "_blank"
-                            )
-                          }
+                          href="https://github.com/Davidalvarezj/Youtube-API-Test"
+                          target="_blank"
                         >
-                          <AiFillGithub />
-                        </h2>
-                        <h3
-                          className="ms-4 pt-1 weblink-video"
-                          onClick={() =>
-                            window.open(
-                              "https://davidalvarezj.github.io/Youtube-API-Test/",
-                              "_blank"
-                            )
-                          }
+                          <h2 className="githublink-video">
+                            <AiFillGithub />
+                          </h2>
+                        </a>
+                        <a
+                          type="button"
+                          className="weblink-video"
+                          href="https://davidalvarezj.github.io/Youtube-API-Test/"
+                          target="_blank"
                         >
-                          <SiAirplayvideo />
-                        </h3>
+                          <h2 className="weblink-video">
+                            <SiAirplayvideo />
+                          </h2>
+                        </a>
                       </div>
                     </div>
                   )}

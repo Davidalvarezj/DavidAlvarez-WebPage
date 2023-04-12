@@ -19,45 +19,46 @@
 }
 
 .aboutme-paragraph{
-    text-align: justify;
-    
+    text-align: justify;   
+}
+.aboutme-paragraph-span{
+    font-family: "sans-serif";
+    font-size: 20px;
 }
 
 .aboutme-row{
     height: 100vh;
 }
 
-
-
 .aboutme-video{
     width: 300px;
     height: 400px;
     object-fit: cover;
     border-radius: 5px;
+    filter: brightness(0.6);
 }
 
- /* @keyframes bgrandom {
-     0% {
-        background-color: #1c2e3f ;
-     }
-
-     20% {
-        background-color: #172a3b;
-     }
-
-     40% {
-        background-color: #0e253c;
-     }
-
-     60% {
-        background-color: #10365a;
-     }
-
-     80% {
-        background-color: #193c5c;
-     }
-
-     100% {
-        background-color: #22394f;
-     }
- } */
+.section-tittle{
+    color: #FFE699;
+    font-family: "sans-serif";
+}
+.section-tittle-span{
+    font-size: 40px;
+}
+.button-about1{
+    color: #FFE699 !important;
+    border-color: #FFE699 !important;
+}
+.button-about1:hover {
+    color: #000000 !important;
+    border-color: #FFE699 !important;
+    background-color: #FFE699 !important;
+}
+.button-about2 {
+    border-color: #FFE699 !important;
+    background-color: #FFE699 !important;
+}
+.button-about2:hover {
+    border-color: #FFE699 !important;
+    background-color: #f8e7b3 !important;
+}
