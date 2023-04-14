@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import logo2 from "../img/logo1.bmp";
+import logo2 from "../img/logo1.png";
 import { MdLandscape } from "react-icons/md";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -32,16 +32,21 @@ const Navbarmenu = () => {
         <Navbar fixed="top" className={strnavtrigger}>
           <div className="container">
             <Navbar.Brand href="#home">
-              <h1 className="text-white">
-                <MdLandscape />
-              </h1>
-              {/* <img src={logo2} alt="Logo2" width="80" height="70" /> */}
+              <img src={logo2} alt="Logo2" width="30" height="30" />
             </Navbar.Brand>
             <Nav className="h4 nav-content">
-              <Nav.Link href="#aboutme">ABOUT ME</Nav.Link>
-              <Nav.Link href="#services">SERVICES</Nav.Link>
-              <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
-              <Nav.Link href="#contact">CONTACT</Nav.Link>
+              <Nav.Link className="nav-custom" href="#aboutme">
+                ABOUT
+              </Nav.Link>
+              <Nav.Link className="nav-custom" href="#services">
+                SERVICES
+              </Nav.Link>
+              <Nav.Link className="nav-custom" href="#projects">
+                PORTFOLIO
+              </Nav.Link>
+              <Nav.Link className="nav-custom" href="#contact">
+                CONTACT
+              </Nav.Link>
             </Nav>
           </div>
         </Navbar>

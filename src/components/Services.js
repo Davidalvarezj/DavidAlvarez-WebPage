@@ -10,16 +10,20 @@ import { GiAutoRepair } from "react-icons/gi";
 const Services = () => {
   return (
     <>
-      <div className="services-section">
+      <div className="services-section" id="services">
         <div className="container services-container d-flex">
           <div className="row my-auto">
             <div className="row ">
-              <div className="col col-md-5 offset-md-1 my-auto">
-                <div data-aos="fade-up" data-aos-duration="1000">
+              <div className="col col-md-5 offset-md-1 my-auto ">
+                <div
+                  className="services-div-animated"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <h3 className="mb-4 section-tittle">
                     <span className="section-tittle-span">S</span>ERVICES
                   </h3>
-                  <p className="text-white services-paragraph mb-5">
+                  <p className="text-white services-paragraph ">
                     <span className="aboutme-paragraph-span">C</span>omplete
                     development services for web and mobile applications,
                     covering both front-end and back-end integration to deliver
@@ -47,7 +51,7 @@ const Services = () => {
                         <GiAutoRepair />
                       </h1>
                       <h5 class="card-title">Bugs fixer</h5>
-                      <p class="card-text">
+                      <p class="card-text servises-p-card">
                         Implementing updates and modifications on existing
                         websites to enhance their performance and functionality.
                       </p>
@@ -72,7 +76,7 @@ const Services = () => {
                         <CgWebsite />
                       </h1>
                       <h5 class="card-title">Web development</h5>
-                      <p class="card-text">
+                      <p class="card-text servises-p-card">
                         Build and maintain websites using up-to-date libraries
                         and frameworks, employing a strategic approach to
                         achieve project goals.
@@ -98,7 +102,7 @@ const Services = () => {
                         <MdOutlinePhoneIphone />
                       </h1>
                       <h5 class="card-title">Mobile App development</h5>
-                      <p class="card-text">
+                      <p class="card-text servises-p-card">
                         Design and develop mobile applications using
                         React-Native for Android and IOS Operation Systems.
                       </p>
@@ -123,7 +127,7 @@ const Services = () => {
                         <FaServer />
                       </h1>
                       <h5 class="card-title">Server side development</h5>
-                      <p class="card-text">
+                      <p class="card-text servises-p-card">
                         Manage server-side implementation for user
                         authentication and data exchange with users.
                       </p>

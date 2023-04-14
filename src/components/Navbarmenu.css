@@ -43,3 +43,15 @@ nav{
         transform: translateY(0);
     }
 }
+
+@media (max-width: 640px) {
+
+    .nav-custom {
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+        
+
+    }
+
+
+}

@@ -6,9 +6,9 @@ const Aboutme = () => {
   return (
     <>
       <div className="aboutme-section ">
-        <div className="container aboutme-container ">
+        <div id="aboutme" className="container aboutme-container ">
           <div className="row aboutme-row ">
-            <div className="col col-md-4 offset-md-1 d-inline-flex ">
+            <div className="col col-md-4 offset-md-1 d-md-inline-flex aboutme-img-div d-none">
               {/* <img
                 src={require("../img/anime3.jpg")}
                 alt="Profile Picture"
@@ -27,7 +27,7 @@ const Aboutme = () => {
             </div>
 
             <div
-              className="col col-md-6 my-auto text-white border-start border-4 ps-4 aboutmeanimated"
+              className="col col-md-6 my-auto text-white ps-4 aboutmeanimated"
               data-aos="fade-left"
               data-aos-duration="1200"
             >
@@ -40,16 +40,18 @@ const Aboutme = () => {
                   <span className="aboutme-paragraph-span">I´</span>m a
                   freelance full-stack web developer, passionate about learning
                   new innovative technologies to enhance the web experience and
-                  increase its usability. Proficient in JavaScript,
-                  React-Native, React, Node-js, Python, MongoDB, CSS, HTML and
-                  Google Cloud Platform Services.
+                  increase its usability.
                 </p>
                 <p className="aboutme-paragraph">
-                  Experience building user friendly applications covering the
+                  Experience building user-friendly applications covering the
                   entire development cycle from front-end interface design to
                   back-end database integration. I possess expertise in
-                  developing E-commerce websites, mobile apps, Landing pages and
-                  Web applications.
+                  developing E-commerce websites, mobile apps, Landing pages,
+                  and Web applications.
+                </p>
+                <p className="aboutme-paragraph">
+                  Proficient in JavaScript, React-Native, React, Node-js,
+                  Python, MongoDB, CSS, HTML and Google Cloud Platform Services.
                 </p>
                 <p className="aboutme-paragraph">
                   My skill set includes website design, development, and
@@ -57,18 +59,20 @@ const Aboutme = () => {
                 </p>
               </div>
               <div className="mt-5 mb-3">
-                <button
+                <a
                   type="button"
-                  className="btn btn-outline-warning ms-3 border-1 button-about1"
+                  className="btn btn-outline-warning border-1 button-about1"
+                  href="#contact"
                 >
                   Contact
-                </button>
-                <button
+                </a>
+                <a
                   type="button"
                   className="btn btn-warning ms-4 border-1 button-about2"
+                  href="#projects"
                 >
                   Projects
-                </button>
+                </a>
               </div>
             </div>
           </div>

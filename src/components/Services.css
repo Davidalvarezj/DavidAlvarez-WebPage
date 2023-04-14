@@ -5,7 +5,9 @@
 .services-section {
     min-height: 100vh;
     background-color: #1c2e3f;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5))
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 
 .services-row {
@@ -18,8 +20,7 @@
 
 .card-servises{
     height: 260px;
-    object-fit: cover;
-    
+    object-fit: cover;  
 }
 
 .services-overlay1 {
@@ -65,4 +66,45 @@
 
 .card-text{
     text-align: justify;
+}
+.servises-p-card {
+    display: block;
+}
+.services-paragraph {
+    margin-bottom: 50px !important;
+}
+
+@media (max-width: 640px) {
+
+
+
+    .services-section {
+        padding-top: 0px;
+        padding-bottom: 20px;
+
+    }
+    .services-div-animated{
+        padding-left: 15px;
+        
+    }
+    .servises-p-card{
+        display: none;
+    }
+    .card-servises {
+        height: 170px;
+    }
+    .services-overlay1, .services-overlay2, .services-overlay3, .services-overlay4 {
+        height: 170px;
+
+    }
+    .card-img-overlay{
+        padding: 5px !important;
+        padding-left: 10px !important;
+    }
+    .services-paragraph{
+        margin-bottom: 20px !important;
+    }
+
+
+
 }

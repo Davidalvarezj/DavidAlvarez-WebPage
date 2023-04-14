@@ -21,7 +21,7 @@
         top: 0;
         left: 0;
         height: 100vh;
-        background-color: rgba(0, 0, 0, 0.2);   
+        background-color: rgba(0, 0, 0, 0.4);   
 
 }
 
@@ -59,6 +59,7 @@
         /* font-family: 'Times New Roman', Times, serif;
         font-family: 'Old Standard TT', serif; */
         font-family: 'Cinzel', serif;
+        text-shadow: 2px 2px 2px #000000;
         font-size: 150px;
         margin: 0;
         padding: 0;
@@ -140,5 +141,29 @@
 
         100% {
                 opacity: 1;
+        }
+}
+
+@media (max-width: 640px) {
+        .header-tittle{
+                font-size: 46px;
+        }
+        .header-tittle-sub{
+                font-size: 36px;
+        }
+        .header-paragraph{
+                font-size: 18px;
+                margin-bottom: 15px;
+        }
+        .header-button{
+                height: 40px;
+                width: 40px;
+                margin-left: 6px;
+                margin-right: 6px;
+        }
+        .header-icons{
+                position: relative;
+                top: -4px;
+                left: -4px;
         }
 }

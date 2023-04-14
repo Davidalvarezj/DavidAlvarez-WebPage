@@ -1,44 +1,67 @@
 .footer-main {
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../img/cyberpunk-city2.jpg");
+    background-image: linear-gradient(rgba(7, 12, 16, 0.9), rgba(16, 28, 36, 0.9), rgba(0, 0, 0, 0.9)), url("../img/cyberpunk-city2.jpg");
+    background-color: #1c2e3f;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     text-shadow: 2px 2px 4px #000000;
-    box-shadow: 0px 0px 200px 200px rgba(0, 0, 0, 0.7);
-    height: 100vh
- 
+    box-shadow: 0px 0px 100px 100px rgba(0, 0, 0, 0.0);
 }
 .footer-container{
-    margin-top: 35vh
+    padding-top: 100px;
+    padding-bottom: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-
-.footer-social {
-    font-size: 50px;
+.row-footer{
+    padding: auto 0;
 }
 
 .text-footer-link {
+    padding: 0 !important;
+    padding-right: 12px !important;
+    margin-bottom: 20px;
     cursor: pointer;
+    font-family: 'Cinzel', serif;
+    color: #FFE699;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px #000000;
+    text-decoration: underline;
+}
+
+.footer-tag{
+    color: white;
+    margin-bottom: 0 ;
+}
+.footer-tag-h5{
+    margin-left: 38px;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.row-footer-end{
+    margin-top: 120px !important;
 }
 
 
-
 @media (max-width: 640px) {
-    .row-jumbo {
-        padding-top: 40px !important;
-
+.footer-container {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 24px !important;
+        min-height: 60vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
+.footer-tag {
+    margin-bottom: 0 ;
 
-    .jumbo-main {
-        /* box-shadow: -0px -100px 100px  10px rgba(0, 0, 0, 0.5) inset; */
-        height: 60vh;
-    }
+}
 
-    .footer-main {
-        height: 300px;
-    }
-
-    .row-footer {
-        margin-top: 20px;
-    }
 }

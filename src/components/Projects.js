@@ -26,17 +26,17 @@ const Projects = () => {
 
   return (
     <>
-      <div className="projects-section">
+      <div className="projects-section" id="projects">
         <div className="container projects-container">
           <div className="row" data-aos="fade-up" data-aos-duration="1000">
-            <div className="col col-md-5 offset-md-1 my-auto">
+            <div className="col col-md-5 offset-md-1 my-auto project-title-div">
               <h3 className="section-tittle">
                 <span className="section-tittle-span">P</span>ROJECTS
               </h3>
               <p className="text-white projects-paragraph mb-5">
                 <span className="aboutme-paragraph-span">A</span>ctively working
                 on a range of projects, including landing pages, marketplaces,
-                video games, and creative startup concepts, showcasing diverse
+                video games, and creative startup concepts, displaying diverse
                 skills and expertise.
               </p>
             </div>
@@ -60,18 +60,19 @@ const Projects = () => {
                   {hoverVideo1 && <div className="projects-overlay"></div>}
 
                   <video
-                    src={require("../img/projects/2023-04-09 17-31-01.mp4")}
+                    src={require("../img/projects/2023-04-09 17-31-01red.mp4")}
                     class={hoverscale1}
                     autoPlay
                     loop
                     muted
+                    playsInline
                   />
                   {hoverVideo1 && (
                     <div class="card-img-overlay project-text">
                       <h5 class="card-title card-title-projects">
                         Vehicles Marketplace
                       </h5>
-                      <p class="card-text">
+                      <p class="card-text card-display-none-xs">
                         Online marketplace for second-hand used cars, bikes,
                         trucks and boats.
                       </p>
@@ -118,20 +119,21 @@ const Projects = () => {
                 >
                   {hoverVideo2 && <div className="projects-overlay"></div>}
                   <video
-                    src={require("../img/projects/2023-04-09 17-34-22.mp4")}
+                    src={require("../img/projects/2023-04-09 17-34-22red.mp4")}
                     class={hoverscale2}
                     autoPlay
                     loop
                     muted
+                    playsInline
                   />
                   {hoverVideo2 && (
                     <div class="card-img-overlay project-text">
                       <h5 class="card-title card-title-projects">
                         Colombia Travel
                       </h5>
-                      <p class="card-text">
-                        Landing page that provides information about the main
-                        tours for Colombia visitors.
+                      <p class="card-text card-display-none-xs">
+                        A landing page that provides information about the main
+                        tours for tourists.
                       </p>
                       <div className="projects-gotodiv">
                         <a
@@ -175,19 +177,20 @@ const Projects = () => {
                 >
                   {hoverVideo3 && <div className="projects-overlay"></div>}
                   <video
-                    src={require("../img/projects/2023-04-09 15-28-55.mp4")}
+                    src={require("../img/projects/2023-04-09 15-28-55red.mp4")}
                     class={hoverscale3}
                     autoPlay
                     loop
                     muted
+                    playsInline
                   />
                   {hoverVideo3 && (
                     <div class="card-img-overlay project-text">
                       <h5 class="card-title card-title-projects">
                         NFT Movile App
                       </h5>
-                      <p class="card-text">
-                        Movile database app to dispaly multiple NFT's projects
+                      <p class="card-text card-display-none-xs">
+                        Mobile database app to display multiple NFT's projects
                         information.
                       </p>
                       <div className="projects-gotodiv">
@@ -222,19 +225,20 @@ const Projects = () => {
                 >
                   {hoverVideo4 && <div className="projects-overlay"></div>}
                   <video
-                    src={require("../img/projects/2023-04-09 17-36-05.mp4")}
+                    src={require("../img/projects/2023-04-09 17-36-05red.mp4")}
                     class={hoverscale4}
                     autoPlay
                     loop
                     muted
+                    playsInline
                   />
                   {hoverVideo4 && (
                     <div class="card-img-overlay project-text">
                       <h5 class="card-title card-title-projects">
                         Movies Database
                       </h5>
-                      <p class="card-text">
-                        Web app that provides movies information for trailers,
+                      <p class="card-text card-display-none-xs">
+                        Web app that provides movie information for trailers,
                         reviews, genres, and more.
                       </p>
                       <div className="projects-gotodiv">
@@ -279,18 +283,21 @@ const Projects = () => {
                 >
                   {hoverVideo5 && <div className="projects-overlay"></div>}
                   <video
-                    src={require("../img/projects/2023-04-09 14-32-47.mp4")}
+                    src={require("../img/projects/2023-04-09 14-32-47red.mp4")}
                     class={hoverscale5}
                     autoPlay
                     loop
                     muted
+                    playsInline
                   />
                   {hoverVideo5 && (
                     <div class="card-img-overlay project-text">
                       <h5 class="card-title card-title-projects">
                         Maze Runner Game
                       </h5>
-                      <p class="card-text">Web Puzzle game using canvas.</p>
+                      <p class="card-text card-display-none-xs">
+                        Web Puzzle game using canvas.
+                      </p>
                       <div className="projects-gotodiv">
                         <a
                           type="button"
@@ -333,19 +340,20 @@ const Projects = () => {
                 >
                   {hoverVideo6 && <div className="projects-overlay"></div>}
                   <video
-                    src={require("../img/projects/2023-04-09 17-39-40.mp4")}
+                    src={require("../img/projects/2023-04-09 17-39-40red.mp4")}
                     class={hoverscale6}
                     autoPlay
                     loop
                     muted
+                    playsInline
                   />
                   {hoverVideo6 && (
                     <div class="card-img-overlay project-text">
                       <h5 class="card-title card-title-projects">
                         Crypto Landing Page
                       </h5>
-                      <p class="card-text">
-                        Landing page for a Crypto project focus on movile first
+                      <p class="card-text card-display-none-xs">
+                        Landing page for a Crypto project focus on mobile first
                         design.
                       </p>
                       <div className="projects-gotodiv">
@@ -390,19 +398,20 @@ const Projects = () => {
                 >
                   {hoverVideo7 && <div className="projects-overlay"></div>}
                   <video
-                    src={require("../img/projects/2023-04-09 17-43-33.mp4")}
+                    src={require("../img/projects/2023-04-09 17-43-33red.mp4")}
                     class={hoverscale7}
                     autoPlay
                     loop
                     muted
+                    playsInline
                   />
                   {hoverVideo7 && (
                     <div class="card-img-overlay project-text">
                       <h5 class="card-title card-title-projects">
                         To-Do List App
                       </h5>
-                      <p class="card-text">
-                        To-Do List Web application using React.
+                      <p class="card-text card-display-none-xs">
+                        Web application using React.
                       </p>
                       <div className="projects-gotodiv">
                         <a
@@ -446,18 +455,19 @@ const Projects = () => {
                 >
                   {hoverVideo8 && <div className="projects-overlay"></div>}
                   <video
-                    src={require("../img/projects/2023-04-09 17-45-06.mp4")}
+                    src={require("../img/projects/2023-04-09 17-45-06red.mp4")}
                     class={hoverscale8}
                     autoPlay
                     loop
                     muted
+                    playsInline
                   />
                   {hoverVideo8 && (
                     <div class="card-img-overlay project-text">
                       <h5 class="card-title card-title-projects">
                         Marketing landing page{" "}
                       </h5>
-                      <p class="card-text">
+                      <p class="card-text card-display-none-xs">
                         Single-page website for a packaging plastic film
                         supplier.
                       </p>
@@ -487,7 +497,7 @@ const Projects = () => {
                   )}
                 </div>
               </div>
-              <div className="col-6 col-md-4 p-2">
+              <div className="col-6 col-md-4 p-2 card-display-none-xs">
                 <div
                   class="card text-bg-dark border-0"
                   data-aos="fade-up"
@@ -503,18 +513,21 @@ const Projects = () => {
                 >
                   {hoverVideo9 && <div className="projects-overlay"></div>}
                   <video
-                    src={require("../img/projects/2023-04-09 17-48-03.mp4")}
+                    src={require("../img/projects/2023-04-09 17-48-03red.mp4")}
                     class={hoverscale9}
                     autoPlay
                     loop
                     muted
+                    playsInline
                   />
                   {hoverVideo9 && (
                     <div class="card-img-overlay project-text">
                       <h5 class="card-title card-title-projects">
                         Youtube API
                       </h5>
-                      <p class="card-text">Best Motivational Speech Videos.</p>
+                      <p class="card-text card-display-none-xs">
+                        Best Motivational Speech Videos.
+                      </p>
                       <div className="projects-gotodiv">
                         <a
                           type="button"

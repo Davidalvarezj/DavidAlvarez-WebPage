@@ -1,16 +1,17 @@
 import React from "react";
 import "./Header.css";
-import videoBg from "../img/untitled_20814130213510_0.mp4";
+import videoBg from "../img/untitled_20814130213510_0red.mp4";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillFilePdf } from "react-icons/ai";
+import pdf from "../img/projects/David Alvarez Full-stack developer.pdf";
 
 const Header = () => {
   return (
     <>
-      <div className="section-header">
+      <div className="section-header" id="home">
         <div className="container-header">
           <div className="overlayimage"></div>
           <video
@@ -19,6 +20,7 @@ const Header = () => {
             autoPlay
             loop
             muted
+            playsInline
           ></video>
           <div className="row">
             <div className="col">
@@ -36,7 +38,7 @@ const Header = () => {
                     target="_blank"
                   >
                     <h3>
-                      <FaLinkedinIn />
+                      <FaLinkedinIn className="header-icons" />
                     </h3>
                   </a>
                   <a
@@ -46,7 +48,7 @@ const Header = () => {
                     target="_blank"
                   >
                     <h3>
-                      <AiFillGithub />
+                      <AiFillGithub className="header-icons" />
                     </h3>
                   </a>
                   <a
@@ -56,7 +58,7 @@ const Header = () => {
                     target="_blank"
                   >
                     <h3>
-                      <AiOutlineTwitter />
+                      <AiOutlineTwitter className="header-icons" />
                     </h3>
                   </a>
                   <a
@@ -66,17 +68,17 @@ const Header = () => {
                     target="_blank"
                   >
                     <h3>
-                      <AiFillInstagram />
+                      <AiFillInstagram className="header-icons" />
                     </h3>
                   </a>
                   <a
                     type="button"
                     className="btn btn-outline-light header-button"
-                    href="https://linkedin.com/in/david-alvarezj"
+                    href={pdf}
                     target="_blank"
                   >
                     <h3>
-                      <AiFillFilePdf />
+                      <AiFillFilePdf className="header-icons" />
                     </h3>
                   </a>
                 </div>
