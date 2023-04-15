@@ -37,7 +37,7 @@ const Services = () => {
                 <div className="col-6 col-md-5 p-2 offset-md-1">
                   <div
                     class="card text-bg-dark border-0"
-                    data-aos="fade-left"
+                    data-aos="fade-right"
                     data-aos-duration="1200"
                   >
                     <div className="services-overlay4"></div>
@@ -62,7 +62,7 @@ const Services = () => {
                 <div className="col-6 col-md-5 p-2">
                   <div
                     class="card text-bg-dark border-0"
-                    data-aos="fade-left"
+                    data-aos="fade-right"
                     data-aos-duration="1200"
                   >
                     <div className="services-overlay2"></div>

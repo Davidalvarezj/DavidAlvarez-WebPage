@@ -14,7 +14,7 @@ const Navbarmenu = () => {
   const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollPosition(position);
-    if (position > 130) {
+    if (position > 80) {
       setstrnavtrigger("navar-content");
     } else setstrnavtrigger("navar-content-start");
   };
@@ -35,7 +35,10 @@ const Navbarmenu = () => {
               <img src={logo2} alt="Logo2" width="30" height="30" />
             </Navbar.Brand>
             <Nav className="h4 nav-content">
-              <Nav.Link className="nav-custom" href="#aboutme">
+              <Nav.Link
+                className="nav-custom d-none d-md-block"
+                href="#aboutme"
+              >
                 ABOUT
               </Nav.Link>
               <Nav.Link className="nav-custom" href="#services">

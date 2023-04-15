@@ -8,7 +8,7 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 const Footer = () => {
   return (
     <>
-      <div className={"jumbotron-fluid footer-main pt-5 pb-1"} id="contact">
+      <div className={"jumbotron-fluid footer-main pt-5 pb-5"} id="contact">
         <Container className="footer-container">
           <div className="row row-footer">
             <div className="row">

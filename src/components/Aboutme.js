@@ -28,7 +28,7 @@ const Aboutme = () => {
 
             <div
               className="col col-md-6 my-auto text-white ps-4 aboutmeanimated"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-duration="1200"
             >
               <div>

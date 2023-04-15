@@ -66,6 +66,7 @@ const Projects = () => {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                   />
                   {hoverVideo1 && (
                     <div class="card-img-overlay project-text">
@@ -91,7 +92,7 @@ const Projects = () => {
                         <a
                           type="button"
                           className="weblink-video"
-                          href="https:vendevehiculos.com"
+                          href="https://www.vendevehiculos.com"
                           target="_blank"
                         >
                           <h2 className="weblink-video">
@@ -125,6 +126,7 @@ const Projects = () => {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                   />
                   {hoverVideo2 && (
                     <div class="card-img-overlay project-text">
@@ -183,6 +185,7 @@ const Projects = () => {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                   />
                   {hoverVideo3 && (
                     <div class="card-img-overlay project-text">
@@ -231,6 +234,7 @@ const Projects = () => {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                   />
                   {hoverVideo4 && (
                     <div class="card-img-overlay project-text">
@@ -289,6 +293,7 @@ const Projects = () => {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                   />
                   {hoverVideo5 && (
                     <div class="card-img-overlay project-text">
@@ -346,6 +351,7 @@ const Projects = () => {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                   />
                   {hoverVideo6 && (
                     <div class="card-img-overlay project-text">
@@ -404,6 +410,7 @@ const Projects = () => {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                   />
                   {hoverVideo7 && (
                     <div class="card-img-overlay project-text">
@@ -461,6 +468,7 @@ const Projects = () => {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                   />
                   {hoverVideo8 && (
                     <div class="card-img-overlay project-text">
@@ -519,6 +527,7 @@ const Projects = () => {
                     loop
                     muted
                     playsInline
+                    preload="metadata"
                   />
                   {hoverVideo9 && (
                     <div class="card-img-overlay project-text">

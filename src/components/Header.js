@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import videoBg from "../img/untitled_20814130213510_0red.mp4";
+
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -14,14 +14,16 @@ const Header = () => {
       <div className="section-header" id="home">
         <div className="container-header">
           <div className="overlayimage"></div>
+
           <video
-            className="header-video"
-            src={videoBg}
+            src={require("../img/video_length1.mp4")}
+            class="header-video"
             autoPlay
             loop
             muted
             playsInline
-          ></video>
+            preload="auto"
+          />
           <div className="row">
             <div className="col">
               <div className="header-content">

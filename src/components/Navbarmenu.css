@@ -5,8 +5,10 @@
     border-bottom: 1px solid  !important;
     border-color: rgba(255, 255, 255, 0.2) !important;
     height: 80px !important;
+    width: 100% !important;
    
 }
+
 
 .nav-link{
     color: white !important;
@@ -26,6 +28,7 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
     border: none !important;
     height: 80px ;
+    width: 100% !important;
     
     
 }
@@ -47,8 +50,7 @@ nav{
 @media (max-width: 640px) {
 
     .nav-custom {
-        padding-left: 4px !important;
-        padding-right: 4px !important;
+
         
 
     }
